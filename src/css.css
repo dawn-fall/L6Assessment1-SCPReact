@@ -1,0 +1,68 @@
+.component{
+    padding: 1rem;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.container2{
+    border: 1px solid rgb(137, 5, 5);
+    box-shadow: 2px 5px rgba(75, 6, 6, 0.473);
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+body{
+    background-color: rgb(29, 24, 24);
+    color: lightgray;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+ul a:hover{
+    text-decoration: none;
+    color: lightgray;
+}
+  
+li {
+    float: left;
+    font-family: 'Julius Sans One', sans-serif;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.home{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.margin{
+    margin: 4%;
+}
+
+.cent{
+    text-align: center;
+}
+
+img{
+    max-width: 85vw;
+    height:auto;
+}
+
+.grad {
+    background-image: linear-gradient(rgb(44, 10, 10), rgb(21, 18, 18));
+}
+
+footer{
+    font-family: 'Julius Sans One', sans-serif;
+}
