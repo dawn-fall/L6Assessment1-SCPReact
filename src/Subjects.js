@@ -2,7 +2,7 @@ export default function Subjects({subjects}){
     return(
         <div className="component container2 margin cent">
             <h1>{subjects.Subject}</h1>
-            <p><img src={subjects.Image}></img></p>
+            <p><img src={subjects.Image} alt={subjects.Subject}></img></p>
             <h2>Class: {subjects.Class}</h2>
             <br/>
             <h3>Containment infomation:</h3>

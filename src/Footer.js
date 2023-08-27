@@ -10,9 +10,9 @@ export default function Footer(){
             <div class="col-md-6">
                 <h5>Connect with Us</h5>
                 <ul class="list-unstyled">
-                <li><a href="">████████</a></li>
-                <li><a href="">███████</a></li>
-                <li><a href="">█████████</a></li>
+                <li><a href="/">████████</a></li>
+                <li><a href="/">███████</a></li>
+                <li><a href="/">█████████</a></li>
                 </ul>
             </div>
             </div>
