@@ -13,9 +13,8 @@ export default function Nav({ data }) {
       </button>
       <div className={`collapse navbar-collapse ${isCollapsed ? '' : 'show'}`} id='navbarSupportedContent'>
         <ul className='navbar-nav mr-auto'>
-          <li className="navbar-brand">SCP Subject Files</li>
-          <li className='nav-item'><Link to='/' aria-current='page' className='nav-link'>Home</Link></li>
-          {data.map((subjects) => (<li className='nav-item' key={subjects.Subject}><Link to={`${subjects.Subject}`} className='nav-link'>{subjects.Subject}</Link></li>))}
+          <li className="nav-item nav-item2"><Link to='/' aria-current='page' className='nav-link'><strong>SCP Subject Files</strong></Link></li>
+          {data.map((subjects) => (<li className='nav-item nav-item2' key={subjects.Subject}><Link to={`${subjects.Subject}`} className='nav-link'>{subjects.Subject}</Link></li>))}
         </ul>
       </div>
     </nav>
